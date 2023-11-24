@@ -46,7 +46,7 @@ h2{
     color: #fff;
     font-size: 1em;
     pointer-events: none;
-    transition: .5s;
+    transition: .15s;
 }
 input:focus ~ label,
 input:valid ~ label{
