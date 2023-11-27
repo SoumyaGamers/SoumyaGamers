@@ -1,0 +1,40 @@
+/* Updated style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    background-image: url('background.jpg'); /* Your background image */
+    background-size: cover;
+    opacity: 0.8; /* Adjust transparency */
+  }
+  
+  .message-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    color: white; /* Text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Blur effect */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Adjusted white glow effect */
+  }
+  
+  h1 {
+    color: #fff; /* White color for headings */
+  }
+  
+  p {
+    color: #fff; /* White color for paragraphs */
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

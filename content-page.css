@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    opacity: 0.5;
+  }
+  
+  .maintenance-container {
+    text-align: center;
+    background-color: black; /* Change text background to black */
+    color: white; /* Change text color to white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adding a white glow effect */
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
